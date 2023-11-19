@@ -37,7 +37,7 @@ In order to install this project you will have to clone the repository:
 
 
 ## Usage
-This code can be used to generate unique passwords.
+This code can be used to schedule your day accordingly.
 
 ## Credits
 https://stackoverflow.com/questions/67295958/how-to-prevent-local-storage-overwriting-values-using-js#:~:text=The%20entry%20is%20being%20overwritten,prevent%20overwriting%20the%20previous%20entry.
