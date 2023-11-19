@@ -19,6 +19,10 @@ $(document).ready(function () {
     
     var savedMessage = $(".messageSaved");
     savedMessage.text("Event saved 🎉!").show();
+
+    setTimeout(function() {
+      savedMessage.hide();
+    }, 2000);
   });
 
 
