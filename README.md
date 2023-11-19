@@ -1,4 +1,7 @@
 # Scheduler
+
+https://juanthtgotaway.github.io/Scheduler/
+
 ![alt text](./assets/images/landing%20Page.png)
 
 ## Description 
@@ -23,6 +26,10 @@ In order to install this project you will have to clone the repository:
             enter following: git@github.com:juanthtgotaway/Scheduler.git
     4. Press enter to create your local clone
 
+
+
+https://github.com/juanthtgotaway/Scheduler/assets/121774171/29e934fd-d13f-4aec-9990-77d02a030900
+This video was recorded outside of the 9-5 timeframe so that is why blocks are grey. But it does indeed work.
 
 ## Usage
 This code can be used to generate unique passwords.
