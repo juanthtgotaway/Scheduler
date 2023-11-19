@@ -2,6 +2,7 @@ var currentDate = $("#currentDay");
 var updateBlocks = $(".row");
 // var saveEvent = $(".col-2");
 var eventDescription = $(".description");
+var savedMessage = $(".messageSaved");
 
 
 function displayTime() {
@@ -15,7 +16,11 @@ $(document).ready(function () {
     var descriptionId = $(this).closest('.row').attr('id'); 
     var userInput = $(this).prev('.description').val();
     localStorage.setItem(descriptionId, userInput);
+    
+    var savedMessage = $(".messageSaved");
+    savedMessage.text("Event saved 🎉!").show();
   });
+
 
   function updateBlocks() {
     var currentHour = dayjs().hour();
@@ -43,7 +48,7 @@ $(document).ready(function () {
         $(this).val(savedDescription);
     }
   });
-  // TODO: Add code to display the current date in the header of the page.
+
   displayTime ();
   
   updateBlocks();
