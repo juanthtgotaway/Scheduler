@@ -23,6 +23,7 @@ $(document).ready(function () {
     setTimeout(function() {
       savedMessage.hide();
     }, 2000);
+    
   });
 
 
