@@ -17,9 +17,12 @@ In this project I had to test my knowledge on what we have learned so far and ho
 **Different but yet similar layouts** This project was very much an extension to the prior project with the Var naming. with Jquery I liked how the spelling to target items is much more condense and easier to understand. The spelling also matters and how you target IDs vs Classes seems to still be very universal. 
 
 https://github.com/juanthtgotaway/Scheduler/assets/121774171/29e934fd-d13f-4aec-9990-77d02a030900
+
+
 <br>
 
 This video was recorded outside of the 9-5 timeframe so that is why blocks are grey. But it does indeed work.
+<br>
 
 
 ## Installation
