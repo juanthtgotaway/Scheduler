@@ -53,24 +53,25 @@ textarea {
   color: white;
 }
 
-.saveBtn i:hover {
+.saveBtn:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
 
+/*adding style to the message saved text*/
 .messageSaved {
+  font-weight: bold;
   text-align: center;
-  padding: 1%;
-  animation: fadeIn 1s;
+  /* webkit allows it to be compatible with browsers */
+  -webkit-animation: fadeinout 2s linear forwards;
+    animation: fadeinout 2s linear forwards;
 }
 
-@keyframes fadeIn {
-  0% {opacity: 0;}
-  100% {opacity: 1;}
+@keyframes fadeinout {
+  0%,100% { opacity: 0; }
+  50% { opacity: 1; }
 }
 
-/* ensures code works with chrome */
-@-webkit-keyframes fadeIn { 
-  0% {opacity: 0;}
-  100% {opacity: 1;}
+.container-lg {
+  padding: 3%;
 }
